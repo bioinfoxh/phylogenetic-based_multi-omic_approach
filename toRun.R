@@ -10,9 +10,9 @@ source("FindSignif.R")
 source("PrintSignifGroups.R")
 
 
-disease<-"Copd" ## prefix of disease, the data files have to be called diseaseNormal.csv and diseasePatient.csv (like you have now)
+disease<-"asthmatics" ## prefix of disease, the data files have to be called diseaseNormal.csv and diseasePatient.csv (like you have now)
 
-treefile<-"receptorsMrBayes.tre"
+treefile<-"tree.nj.nexus"
 varnames<-c("Exp","Meth") ## the names of the columns in the data files corresponding to our variables of interest, 
 ## can be any number so you can use this for cancer and diabetes. The names have to be the same for the Normal and Patients data files!
 
