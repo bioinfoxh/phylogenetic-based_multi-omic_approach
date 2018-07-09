@@ -1,6 +1,10 @@
+
+setwd("/Users/Hui/myFiles/cambridge/projects/chemokin_receptor/wholePipeline/")
+
 library(mvSLOUCH)
 library(permute)
 source("wholePipeline.R")
+source("EvolModelEst.R")
 source("ModelAnalysis.R") 
 source("SimulateHealthyModel.R")
 source("getNullDistribution.R")
@@ -9,6 +13,8 @@ source("CompareToNullGroups.R")
 source("FindSignif.R")
 source("PrintSignifGroups.R")
 
+
+setwd("Data/")
 
 disease<-"asthmatics" ## prefix of disease, the data files have to be called diseaseNormal.csv and diseasePatient.csv (like you have now)
 
@@ -23,7 +29,7 @@ Merrorvarnames<-c("varExp","varMeth") ## the names of the columns in the data fi
 ## The names have to be the same for both Normal and Patient data files!
 
 simset<-1
-numSims<-200000
+numSims<-10    ##200000
 pvalcutoff<-0.05
 maxnumsigs<-6 ## max number of variables in group
 
