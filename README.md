@@ -18,5 +18,5 @@ In the "Data folder", we have provided the example data for the phylogenetic con
 
 The script "toRun.R" performs the whole phylogenetic constrained multi-omic analysis using the up-mentioned example datasets as input and the corresponding result files will be automatically generated in the "Data" folder. 
 
-To run your own analysis, just replace the input datasets with your own files and change the prefix "asthmatics" of the files to the disease name that you use. And please remember also change the corresponding disease name in the "toRun.R": disease<-"asthmatics"
+To run your own analysis, just replace the input datasets with your own files and change the prefix "asthmatics" of the files to the disease name that you use. Please also remember to change the corresponding disease name in the "toRun.R": disease<-"asthmatics. After that, just run toRun.R in R.
 
