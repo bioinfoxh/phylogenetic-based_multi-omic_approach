@@ -29,7 +29,7 @@ Merrorvarnames<-c("varExp","varMeth") ## the names of the columns in the data fi
 ## The names have to be the same for both Normal and Patient data files!
 
 simset<-1
-numSims<-10    ##200000
+numSims<-200000
 pvalcutoff<-0.05
 maxnumsigs<-6 ## max number of variables in group
 
