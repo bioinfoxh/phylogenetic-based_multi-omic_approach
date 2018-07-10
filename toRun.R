@@ -1,6 +1,4 @@
 
-setwd("/Users/Hui/myFiles/cambridge/projects/chemokin_receptor/wholePipeline/")
-
 library(mvSLOUCH)
 library(permute)
 source("wholePipeline.R")
